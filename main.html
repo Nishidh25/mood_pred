@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Facial Expression Recognition</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Header -->
+<header class="w3-container w3-row-padding w3-red w3-center" >
+  <h2>Music recommendation based Facial Expression Recognition (FER)</h2>
+</header>
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-32 w3-container" style="background-color:#383838;color: #FFFFFF;">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Predict your mood</h1>
+      <h3 class="w3-padding-16">Upload ypur image</h3>
+      <p class="w3-text-grey"> Accepted image format - jpg/jpeg</p>
+  		<form  method=post enctype=multipart/form-data>
+    		<input type=file name=file>
+    		<input class = "btn"  type=submit value=Classify>
+  		</form>
+    </div>
+  </div>
+</div>
+
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-padding-32 w3-container" style="background-color:#383838;color: #FFFFFF;">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About</h1>
+      <h5>Get Predicted Music directly from your face image</h5>
+      <h5 class="w3-padding-32"></h5>
+      <p class="w3-text-grey">Dataset used - <a href="https://datarepository.wolframcloud.com/resources/FER-2013">FER dataset</a> </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<div class="w3-container w3-center" style="background-color:#383838;color: #FFFFFF;">
+    <a class="w3-xlarge w3-padding-32 fa fa-github w3-hover-opacity" href="https://github.com/Nishidh25/Covid-19-Detection-from-Lung-X-rays" target="_blank" style="text-decoration: none;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="w3-xlarge w3-padding-32 fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/nishidh-singh-shekhawat-944522100" target="_blank" style="text-decoration: none;"></a>
+</div>
+
+</body>
+</html>

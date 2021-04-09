@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Result</title>
+<style type="text/css">
+body {
+    margin:50px 0; 
+    padding:0;
+    text-align:center;
+    background-color:#383838;
+    color:#FFFFFF;
+}
+
+#Content {
+    width:500px;
+    margin:0 auto;
+    text-align:left;
+    padding:15px;
+    border:1px dashed #333;
+    background-color:#eee;
+}
+</style>
+</head>
+
+<!-- Main Body -->
+<body style = "font-family:courier,arial,helvetica;">
+	<h1>Predition</h1>
+	<img src="{{ url_for('static', filename = user_image) }}" alt="User Image" >
+	<h3>Mood Detected is {{ prediction }}</h3>
+	<a href="https://www.linkedin.com/in/nishidh-singh-shekhawat-944522100" target="_blank">Song{{ title }} by {{ singer }}</a>
+
+</body>
+
+</html>
